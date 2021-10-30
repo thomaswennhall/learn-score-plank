@@ -9,7 +9,7 @@ In the case of Firebase, this something else is **real time** data. Building rea
 
 ## What we'll learn
 
-- We'll learn how to use Firebase's real time data api
+- We'll learn how to use Firebase's real time database
 
 ## Intro
 If you're having an office tournament of some kind where colleges are meeting in 1 on 1 matches and the rest of the office is eagerly watching and cheering, it's often hard to keep track of who's winning.
@@ -46,7 +46,7 @@ Go the the "Realtime database" in your projects dashboard.
 		player2:
 			name: "Yosef"
 			score: 9
-			
+
 		sides: "default"
 
 ## 4. Connect to your new database
