@@ -49,6 +49,10 @@ Go the the "Realtime database" in your projects dashboard.
 
 		sides: "default"
 
+This is what the data should look like if you did it correctly:
+
+![Initech](assets/correct-data.png)
+
 ## 4. Connect to your new database
 Go to Settings in your firebase project and click and under General > Your apps, click the "</>" button to add a new web project.
 
@@ -60,6 +64,8 @@ Go to Settings in your firebase project and click and under General > Your apps,
 	- When you do an init, make sure to select these two options by pressing space before pressing enter to confirm:
 		- ◉ Database: Configure Firebase Realtime Database and deploy rules
 		- ◉ Hosting: Configure and deploy Firebase Hosting sites
+		(NOTE: if you have a newer version of firebase, it might look like this, pick the following options:)
+		![Initech](assets/choices.png)
 	- In the next step, select "Use an existing project" and select the name of the project you created earlier
 	- Then select the following options:
 		- What file should be used for Realtime Database Security Rules? database.rules.json
