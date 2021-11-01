@@ -70,9 +70,10 @@ Go to Settings in your firebase project and click and under General > Your apps,
 ## 5. Deploy!
 In `App.js` after the firebase config code you pasted in, add the following:
 
-
-	const database = getDatabase(app); // <-- this line was here
-	console.log(database) // <--- You should add this line
+	import { getDatabase } from "firebase/database"
+	...
+	const database = getDatabase(app)
+	console.log(database)
 
 Run the `npm run dev` and make sure your app still runs and that the `Database` object is logged out in the console.
 
